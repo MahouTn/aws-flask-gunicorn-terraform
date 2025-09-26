@@ -6,6 +6,8 @@ This project demonstrates a production-ready approach to deploying a Python Flas
 ### 🏗️ Architecture
 
 ![S3](https://imgur.com/VM8jnIo)
+
+
 The project's architecture involves two main stages managed by Terraform:
 
 Infrastructure: Terraform provisions a VPC, Subnet, Security Group (opening Ports 22 and 80), and the EC2 instance itself.
