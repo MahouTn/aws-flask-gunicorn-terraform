@@ -5,7 +5,7 @@ This project demonstrates a production-ready approach to deploying a Python Flas
 
 ### 🏗️ Architecture
 
-![S3](https://imgur.com/VM8jnIo)
+![S3](https://i.imgur.com/VM8jnIo.png)
 
 
 The project's architecture involves two main stages managed by Terraform:
@@ -63,12 +63,12 @@ After a successful terraform apply, the output will provide the public URL of yo
 -> terraform output "public_ip"
 ```
 
-![S3](https://imgur.com/igA6kpy)
+![S3](https://i.imgur.com/igA6kpy.png)
 
 5. Verify the Application in the Browser
 Navigate to the Public IP in your web browser to confirm the application is serving the index.html content on Port 80.
 
-![S3](https://imgur.com/rI7S8IP)
+![S3](https://i.imgur.com/rI7S8IP.png)
 
 ### 🧹 Cleanup
 To avoid incurring any costs, you can destroy all the created resources with a single command.
